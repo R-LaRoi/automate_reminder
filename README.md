@@ -1,4 +1,4 @@
-# Automate Reminder
+# Automate Reminders
 
 A Python project for scheduling and displaying desktop notifications as reminders at specific times or intervals. Supports custom messages, notification sounds, and custom icons.
 
@@ -20,12 +20,14 @@ A Python project for scheduling and displaying desktop notifications as reminder
 ## Installation
 
 1. **Clone the repository:**
+
    ```sh
    git clone https://github.com/R-LaRoi/automate_reminder.git
    cd automate_reminder
    ```
 
 2. **Install Python dependencies:**
+
    ```sh
    pip install -r requirements.txt
    ```
@@ -40,6 +42,7 @@ A Python project for scheduling and displaying desktop notifications as reminder
 ### Scheduled Reminders
 
 Edit `scheduled_notifier.py` to customize your reminders and times:
+
 ```python
 reminders = [
     ("Check Slack!", "15:00"),  # 3 PM
@@ -49,6 +52,7 @@ reminders = [
 ```
 
 Run the script:
+
 ```sh
 python scheduled_notifier.py
 ```
@@ -56,9 +60,11 @@ python scheduled_notifier.py
 ### Interval Reminders
 
 If you have `interval_notifier.py`, you can use it to set reminders at regular intervals:
+
 ```sh
 python interval_notifier.py -m "Take a break!" -i 30 -t 5
 ```
+
 - `-m`: Message to display
 - `-i`: Interval in minutes
 - `-t`: Number of times to show the notification (0 for infinite)
@@ -76,4 +82,4 @@ Place your PNG icon (e.g., `star_icon.png`) in the project directory. The script
 
 ## License
 
-MIT License 
+MIT License

@@ -24,7 +24,7 @@ def main():
         Notifier.notify(
             args.message,
             title='Reminder',
-            subtitle='Time to recharge!',
+            subtitle='Consistency is key!',
             sound='Glass',
             appIcon=icon_path
         )
